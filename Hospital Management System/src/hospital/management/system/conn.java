@@ -15,7 +15,7 @@ public class conn {
             // Load the MySQL JDBC driver
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-            String url = "jdbc:mysql://172.17.0.2:3306/hospital_management_system";
+            String url = "jdbc:mysql://127.0.0.1:3309/hospital_management_system";
             String user = "root";
             String pass = "root";
 
